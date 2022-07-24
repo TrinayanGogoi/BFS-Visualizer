@@ -1,0 +1,82 @@
+ body
+ {
+    background-color: rgb(29, 114, 189);
+ }
+
+ .container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+ }
+
+ .left{
+    width: 50%;
+    height: 100%;
+ }
+
+ .right{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+ }
+
+ .right > h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 64px;
+    color: rgb(0, 0, 0);
+    border-bottom: 4px solid pink;
+    margin-left: 5%;
+ }
+
+ .maze_container
+ {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .row{
+    width: 100%;
+    height: 100%;
+    display: flex;   
+ }
+
+ .node{
+    /* */
+    width: 100%;
+    height: 100%;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: gray;
+    transition: transform .2s;/******/
+ }
+
+ .node:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+ .node1{
+    background-color: rgb(255, 0, 0);
+ }
+
+ .node100{
+    background-color: rgb(128, 0, 128);
+ }
+
+ .button{
+    padding: 10px 30px 10px 30px;
+    transition: transform .2s;
+    margin: 2.5%;
+ }
+
+ .button:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
